@@ -1,0 +1,9 @@
+query FetchTodos($creatorId: String!) {
+  todos(creatorId: $creatorId) {
+    _id
+    title
+    body
+    completed
+    createdOn
+  }
+}

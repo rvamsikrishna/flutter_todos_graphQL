@@ -1,0 +1,6 @@
+{
+  "db": {
+    "password": "db_password"
+  },
+  "jwtTokenSecretKey": "jwt_dsecret_key"
+}

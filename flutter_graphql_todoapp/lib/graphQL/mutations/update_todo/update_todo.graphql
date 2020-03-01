@@ -1,0 +1,7 @@
+mutation UpdateTodo($todoId: String!, $body: String, $completed: Boolean) {
+  updateTodo(id: $todoId, updatedTodo: { body: $body, completed: $completed }) {
+    _id
+    body
+    completed
+  }
+}

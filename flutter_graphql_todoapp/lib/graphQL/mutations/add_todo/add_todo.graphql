@@ -1,0 +1,8 @@
+mutation AddTodo($text: String!, $userId: String!) {
+  createTodo(todo: { body: $text, userId: $userId }) {
+    _id
+    body
+    completed
+    createdOn
+  }
+}
